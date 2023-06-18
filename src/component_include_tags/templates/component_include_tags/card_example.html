@@ -1,0 +1,18 @@
+{% load components %}
+<div>
+    {% wrapper header %}
+    <div>
+        <h1>Header</h1>
+        {{header}}
+    </div>
+    {% endwrapper %}
+    <div>
+        {{body}}
+    </div>
+    {% wrapper footer %}
+    <div>
+        <h2>Footer</h2>
+        {{footer}}
+    </div>
+    {% endwrapper %}
+</div>
